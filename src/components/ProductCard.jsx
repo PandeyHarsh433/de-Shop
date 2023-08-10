@@ -50,13 +50,13 @@ const ProductCard = ({ product }) => {
         <div className="flex items-center justify-between text-black/[0.5] text-xl">
           <p className="mr-2 text-lg font-semibold">₹{product.price}</p>
           <div className="mr-2 text-lg font-semibold flex item-center justify-evenly gap-2 text-xl">
-            <p className="hover:text-red-500">
+            <p className="hover:text-red-500 cursor-pointer">
               <BsSuitHeartFill
                 onClick={() => handleWishlistClick(product)}
                 disabled={isLoadingWishlist}
               />
             </p>
-            <p className="hover:text-red-500">
+            <p className="hover:text-red-500 cursor-pointer">
               <BsCartPlus
                 onClick={() => handleCartClick(product)}
                 disabled={isLoadingCart}
