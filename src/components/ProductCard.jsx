@@ -40,7 +40,7 @@ const ProductCard = ({ product }) => {
     <div>
       <div className="aspect-w-1 aspect-h-1">
         <img
-          className="object-cover w-full h-[60vh]"
+          className="object-cover w-full h-[60vh] rounded-lg"
           src={product.images[0]}
           alt="Product Image"
         />
