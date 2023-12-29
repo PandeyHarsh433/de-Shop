@@ -52,7 +52,7 @@ De-Shop is a feature-rich e-commerce application built with React, Tailwind CSS,
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/deshop.git
+   git clone https://github.com/PandeyHarsh433/de-Shop.git
 
 2. **Install dependencies:**
    ```bash
