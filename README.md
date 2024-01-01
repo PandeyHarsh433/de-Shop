@@ -63,7 +63,8 @@ De-Shop is a feature-rich e-commerce application built with React, Tailwind CSS,
    ```bash
    npm run dev
 
-Visit http://localhost:3000 to experience De-Shop!
+  **Visit http://localhost:3000 to experience De-Shop!**
+
 ### Contributing
   -  Feel free to contribute to the development of De-Shop. Check out the Contributing Guidelines for more details.
 ### License
